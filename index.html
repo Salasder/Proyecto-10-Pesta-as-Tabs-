@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 10 - Pestañas</title>
+    <link rel="stylesheet" href="stilos.css">
+</head>
+
+<body>
+
+    <main class="contenedor">
+
+        <!-- Botones de las pestañas -->
+        <div class="pestanas">
+            <button class="pestana activa" data-pestana="1">
+                Primera pestaña
+            </button>
+
+            <button class="pestana" data-pestana="2">
+                Segunda pestaña
+            </button>
+
+            <button class="pestana" data-pestana="3">
+                Tercera pestaña
+            </button>
+
+            <button class="pestana" data-pestana="4">
+                Cuarta pestaña
+            </button>
+        </div>
+        <p class="descripcion">
+            Al hacer clic en cada pestaña, se ocultará el contenido de las demás y se mostrará el de la pestaña seleccionada. Por defecto, se activa la primera pestaña.
+        </p>
+
+        <!-- Contenido de cada pestaña -->
+        <section class="contenido activo" id="contenido-1">
+            Contenido de la primera pestaña.
+        </section>
+
+        <section class="contenido" id="contenido-2">
+            Contenido de la segunda pestaña.
+        </section>
+
+        <section class="contenido" id="contenido-3">
+            Contenido de la tercera pestaña.
+        </section>
+
+        <section class="contenido" id="contenido-4">
+            Contenido de la cuarta pestaña.
+        </section>
+        <p class="texto-final">
+            Agrega contenido de ejemplo o simplemente un texto que describa la pestaña.
+        </p>
+
+    </main>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
